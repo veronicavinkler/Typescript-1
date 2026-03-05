@@ -17,6 +17,7 @@ export const products: Product[] = [
         name: "Phone",
         description: "A smartphone with a sleek design and powerful features.",
         price: 699.99,
+        stock: 2,
         category: categories[0],
         specifications: {
             display: "6.5-inch OLED",
@@ -29,6 +30,7 @@ export const products: Product[] = [
         name: "T-Shirt",
         description: "A comfortable cotton t-shirt available in various colors.",
         price: 19.99,
+        stock: 6,
         category: categories[1],
         specifications: {
             material: "100% Cotton",
@@ -40,6 +42,7 @@ export const products: Product[] = [
         name: "Blender",
         description: "A powerful blender perfect for smoothies and soups.",
         price: 89.99,
+        stock: 0,
         category: categories[2],
         specifications: {
             power: "500W",

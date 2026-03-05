@@ -6,5 +6,6 @@ export interface Product {
     description: string;
     price: number;
     category: Category;
+    stock: number;
     specifications?: Record<string, string | number>;
 }
