@@ -39,3 +39,44 @@ export const products = [
         }
     }
 ];
+export const suppliers = [
+    {
+        id: 1,
+        name: "Nordic Tech Supply",
+        description: "Electronics distributor",
+        category: categories[0],
+        products: [products[0]]
+    },
+    {
+        id: 2,
+        name: "Baltic Fashion Hub",
+        description: "Clothing wholesaler",
+        category: categories[1],
+        products: [products[1]]
+    },
+    {
+        id: 3,
+        name: "HomeWare Partner",
+        description: "Home appliances supplier",
+        category: categories[2],
+        products: [products[2]]
+    }
+];
+export const warehouseStocks = [
+    { id: 1, product: products[0], warehouse: "Tallinn", quantity: 1 },
+    { id: 2, product: products[0], warehouse: "Tartu", quantity: 1 },
+    { id: 3, product: products[1], warehouse: "Tallinn", quantity: 4 },
+    { id: 4, product: products[1], warehouse: "Parnu", quantity: 2 },
+    { id: 5, product: products[2], warehouse: "Tallinn", quantity: 0 }
+];
+export const reviews = [
+    { id: 1, product: products[0], rating: 4.8, author: "Anna", comment: "Excellent phone" },
+    { id: 2, product: products[0], rating: 4.4, author: "Mark", comment: "Great battery" },
+    { id: 3, product: products[1], rating: 3.9, author: "Liis", comment: "Good quality" },
+    { id: 4, product: products[1], rating: 4.1, author: "Karl", comment: "Fits well" }
+];
+export const discountRules = [
+    { id: 1, name: "Electronics promo", category: categories[0], percentage: 12, minRating: 4.5 },
+    { id: 2, name: "Clothing spring sale", category: categories[1], percentage: 8 },
+    { id: 3, name: "Home appliances deal", category: categories[2], percentage: 5, minRating: 4.0 }
+];
