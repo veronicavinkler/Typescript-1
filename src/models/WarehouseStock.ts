@@ -1,10 +1,8 @@
-import { Category } from './Category';
-import { Product } from './Product';
+import { Product } from "./Product";
 
-export interface Supplier {
+export interface WarehouseStock {
     id: number;
-    name: string;
-    available: number;
-    category: Category;
-    products: Product[];
+    product: Product;
+    warehouse: string;
+    quantity: number;
 }
