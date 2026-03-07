@@ -1,0 +1,22 @@
+{
+  "name": "typescript-1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ülesanne 1: Luua toodete raport terminalis, mis näitab laoseisu, hinnangut, soodustust, specs.\r Ülesanne 2: Luua interaktiivne veebirakendus, milles on toodete list, saab lisada tooteid, filter ja sort on olemas, LocalStorages salvestamine.",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veronicavinkler/Typescript-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veronicavinkler/Typescript-1/issues"
+  },
+  "homepage": "https://github.com/veronicavinkler/Typescript-1#readme"
+}
